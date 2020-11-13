@@ -10,7 +10,7 @@ using RestCoreTokenApp.Models;
 
 namespace InventoryService.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
